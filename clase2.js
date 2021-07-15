@@ -18,13 +18,20 @@
 // 2 user 
 // 3 invitado
 
-const role = 1; //diferente a if
-switch (role) {
-    case 1:
-        console.log('es admin')
-    case 2:
-        console.log('es user')
-    default:
-        console.log('es invitado')
-        break; //si el caso se cumple no ejecuta el resto de los casos
+// const role = 1; //diferente a if
+// switch (role) {
+//     case 1:
+//         console.log('es admin')
+//     case 2:
+//         console.log('es user')
+//     default:
+//         console.log('es invitado')
+//         break; //si el caso se cumple no ejecuta el resto de los casos
+// }
+
+function test(arg=11) { //agregamos un valor por default 
+    console.log(arg);
 }
+
+test();
+test('hola');
